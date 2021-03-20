@@ -7,8 +7,8 @@
   align-items: center;
 }
 
-.main {
-  padding: 5rem 0;
+.header {
+  padding: 5rem 0 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -16,17 +16,44 @@
   align-items: center;
 }
 
+.title {
+  height: 5rem;
+}
+
+.editorPreviewWrapper {
+  border: 3px solid black;
+  border-radius: 0.2rem;
+  display: flex;
+  justify-content: space-between;
+  height: 98vh;
+  width: 100%;
+}
+
+.editor {
+  padding: 0.5rem;
+  width: 49vw;
+  min-height: 97vh;
+  max-height: 97vh;
+  background-color: transparent;
+}
+
+.preview {
+  width: 49vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow: scroll;
+}
+
 .footer {
+  margin-top: 1rem;
   width: 100%;
   height: 100px;
   border-top: 1px solid #eaeaea;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.footer img {
-  margin-left: 0.5rem;
 }
 
 .footer a {
@@ -63,8 +90,9 @@
 }
 
 .code {
-  background: #fafafa;
+  background: #eee;
   border-radius: 5px;
+  margin: 0 0.5rem;
   padding: 0.75rem;
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
@@ -111,7 +139,12 @@
 }
 
 .logo {
-  height: 1em;
+  height: 2em;
+}
+
+.signature {
+  height: 4rem;
+  margin-left: 0.5rem;
 }
 
 @media (max-width: 600px) {
