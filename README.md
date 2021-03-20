@@ -1,4 +1,4 @@
-![project screenshot](/project-screenshot.png "This is a sample image")
+![project screenshot](/project-screenshot.png)
 
 ## Markdown Previewer
 Inspired by freeCodeCamp.org challenge
